@@ -1,3 +1,9 @@
+// TODO1: Modify the program image.c to make it multi-threaded using pthreads.  You may do this any way you wish, but you must make sure you avoid race conditions, and that your choice of what to parallelize and how to parallelize it makes sense.  Compile your code with -lthread and see what the results of your parallelization.  Remember to commit and push your solution back to github.
+
+// TODO2: Modify the program image.c again (save in a new file) to make it multi-threaded using pragmas in OpenMP.  You may do this any way you wish, but you must make sure you avoid race conditions, and that your choice of what to parallelize and how to parallelize it makes sense.  Compile your code with -fopenmp and see what the results of your parallelization.  Remember to commit and push your solution back to gitlab.
+
+
+
 #include <stdio.h>
 #include <stdint.h>
 #include <time.h>

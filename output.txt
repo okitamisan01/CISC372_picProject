@@ -1,0 +1,16 @@
+Script started on Fri Apr 10 13:25:44 2026
+]0;mizoki@r1n03.darwin:~/CISC372_picProject[?1034h[mizoki@r1n03 CISC372_picProject]$ srun ./image_pthread pic1, .jpg edge
+slurmstepd: error: execve(): /home/4398/CISC372_picProject/./image_pthread: No such file or directory
+srun: error: r1n03: task 0: Exited with exit code 2
+]0;mizoki@r1n03.darwin:~/CISC372_picProject[mizoki@r1n03 CISC372_picProject]$ srun ./image_pthreads pic1.jpg edge
+
+Took 7 seconds
+]0;mizoki@r1n03.darwin:~/CISC372_picProject[mizoki@r1n03 CISC372_picProject]$ srun ./image_openmp pic1.jpg edge
+slurmstepd: error: execve(): /home/4398/CISC372_picProject/./image_openmp: No such file or directory
+srun: error: r1n03: task 0: Exited with exit code 2
+]0;mizoki@r1n03.darwin:~/CISC372_picProject[mizoki@r1n03 CISC372_picProject]$ srun ./image_openmp pic1.jpg edge[1P[1P[1P[1P[1P[1@m[1@c
+Took 7 seconds
+]0;mizoki@r1n03.darwin:~/CISC372_picProject[mizoki@r1n03 CISC372_picProject]$ exit
+exit
+
+Script done on Fri Apr 10 13:27:36 2026
